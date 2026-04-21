@@ -21,9 +21,7 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 docker run -d -P --name nginxp3 --mount type=bind,source=C:\Users\User\nginx\html,target=/usr/share/nginx/html nginx:alpine
 ```
 <img width="1707" height="462" alt="image" src="https://github.com/user-attachments/assets/1b379abb-9c27-4028-8ece-31180edc3d97" />
-```
 
-```
 <img width="1756" height="95" alt="image" src="https://github.com/user-attachments/assets/063db926-69e3-4748-8614-b5814ef16eca" />
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
@@ -43,8 +41,7 @@ Al mirar con la herramienta *Inspeccionar* se puede notar que el archivo index.h
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 
 <img width="1691" height="926" alt="image" src="https://github.com/user-attachments/assets/bd371729-d798-4de7-8a44-66ac65ab2137" />
-```
-```
+
 <img width="1359" height="707" alt="image" src="https://github.com/user-attachments/assets/5c46e2a3-6042-4b50-86e9-c54d49c06c4a" />
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
@@ -59,8 +56,7 @@ Al ingresar o recargar *http://localhost:32769/* lo que aparece es el template d
 docker rm -f nginxp3
 ```
 <img width="262" height="77" alt="image" src="https://github.com/user-attachments/assets/27a74ea4-619d-4c55-a01c-93f2ece11349" />
-```
-```
+
 <img width="1911" height="938" alt="image" src="https://github.com/user-attachments/assets/866b5450-54fb-494d-8108-820612a7fbc4" />
 Como se puede observar, al eliminar el contenedor ya no se puede acceder al sitio.
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
@@ -69,11 +65,9 @@ Como se puede observar, al eliminar el contenedor ya no se puede acceder al siti
 docker run -d -P --name nginxp3 --mount type=bind,source=C:\Users\User\nginx\html,target=/usr/share/nginx/html nginx:alpine
 ```
 <img width="979" height="67" alt="image" src="https://github.com/user-attachments/assets/aae107e3-a37e-41d3-af34-473045910269" />
-```
-```
+
 <img width="1747" height="285" alt="image" src="https://github.com/user-attachments/assets/b731dca2-a826-488f-bfc8-5c4f4235c796" />
-```
-```
+
 <img width="1919" height="936" alt="image" src="https://github.com/user-attachments/assets/156e6665-9968-47d2-971e-d905339168d0" />
 
 Al volver a crear el contenedor, primeramente se debe buscar el puerto en el que se ejecuta ya que no es el mismo por usar el flag -P en el comando, esto se logra con el comando:

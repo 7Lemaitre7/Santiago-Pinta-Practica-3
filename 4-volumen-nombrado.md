@@ -108,7 +108,7 @@ _La instalación puede tomar varios minutos, mientras espera realice un diagrama
 
 
 # COMPLETAR CON EL DIAGRAMA SOLICITADO
-<img width="612" height="416" alt="diagrama mio p3" src="https://github.com/user-attachments/assets/8d763de3-e150-4a1e-9c63-21f862a1c8a0" />
+<img width="612" height="416" alt="diagrama mio p3" src="https://github.com/user-attachments/assets/aac0d815-b3cc-4b6a-afe1-7ba39de8401c" />
 
 ### Eliminar un volumen específico
 ```
